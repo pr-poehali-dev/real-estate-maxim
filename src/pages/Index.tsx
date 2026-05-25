@@ -144,7 +144,7 @@ export default function Index() {
 
             <div className="animate-fade-up-delay-4 mt-14 flex flex-wrap gap-8">
               {[
-                { val: "8 лет", label: "на рынке" },
+                { val: "13 лет", label: "на рынке" },
                 { val: "600+", label: "сделок закрыто" },
                 { val: "100%", label: "без поездок в Москву" },
               ].map((s) => (
