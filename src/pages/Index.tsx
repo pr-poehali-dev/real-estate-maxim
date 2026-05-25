@@ -378,8 +378,8 @@ export default function Index() {
               },
               {
                 icon: "Mail",
-                title: "Почта и мессенджеры",
-                lines: ["maksimum-36@yandex.ru", "Telegram: @maximum_vrn", "WhatsApp: +7 900 000-00-00"],
+                title: "Почта",
+                lines: ["maksimum-36@yandex.ru"],
               },
             ].map((card, i) => (
               <div key={i} className="luxury-card rounded-xl p-7 text-center">
