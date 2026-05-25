@@ -2,7 +2,7 @@ import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/46c98693-e04f-4e23-9485-fb6ad4ed8e3c/files/f4e4c409-c37c-4cbd-9542-920cd1be1902.jpg";
-const TEAM_IMAGE = "https://cdn.poehali.dev/projects/46c98693-e04f-4e23-9485-fb6ad4ed8e3c/files/189539ad-c26c-48ec-9820-bfb89c839457.jpg";
+const TEAM_IMAGE = "https://cdn.poehali.dev/projects/46c98693-e04f-4e23-9485-fb6ad4ed8e3c/files/2ef360cf-0111-4856-bf34-8a531ac9a763.jpg";
 const APARTMENT_IMAGE = "https://cdn.poehali.dev/projects/46c98693-e04f-4e23-9485-fb6ad4ed8e3c/files/fc1af050-3dec-4cde-bf7f-2624aed6fdc1.jpg";
 
 const services = [
@@ -249,10 +249,7 @@ export default function Index() {
               <div className="absolute -bottom-6 -left-6 p-5 rounded-lg" style={{ background: "hsl(220,20%,8%)", border: "1px solid rgba(180,145,60,0.3)" }}>
                 <img src={APARTMENT_IMAGE} alt="Квартира" className="w-40 h-28 object-cover rounded" />
               </div>
-              <div className="absolute top-6 right-6 p-4 rounded-lg text-center" style={{ background: "rgba(16,19,26,0.9)", border: "1px solid rgba(180,145,60,0.25)", backdropFilter: "blur(8px)" }}>
-                <div className="font-cormorant text-3xl font-semibold" style={{ color: "hsl(43,74%,60%)" }}>600+</div>
-                <div className="text-xs mt-1" style={{ color: "rgba(240,237,232,0.5)" }}>довольных<br />клиентов</div>
-              </div>
+
             </div>
           </div>
         </div>
