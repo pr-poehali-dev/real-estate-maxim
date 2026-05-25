@@ -267,7 +267,7 @@ export default function Index() {
             <h2 className="font-cormorant text-5xl mb-4" style={{ fontWeight: 300 }}>Запись на консультацию</h2>
             <div className="gold-line w-20 mx-auto mb-5" />
             <p className="text-base" style={{ color: "rgba(240,237,232,0.55)" }}>
-              Бесплатная консультация — 45 минут. Расскажем о рынке, подберём варианты, ответим на все вопросы.
+              Бесплатная консультация — 40 минут. Расскажем о рынке, ответим на все вопросы.
             </p>
           </div>
 
@@ -369,17 +369,17 @@ export default function Index() {
               {
                 icon: "MapPin",
                 title: "Офис в Воронеже",
-                lines: ["ул. Пушкинская, 19, офис 301", "Пн–Пт: 9:00–19:00", "Сб: 10:00–16:00"],
+                lines: ["ул. Куцыгина, д. 32, офис 302", "Пн–Пт: 9:00–19:00", "Сб: 10:00–16:00"],
               },
               {
                 icon: "Phone",
                 title: "Телефон",
-                lines: ["+7 (473) 200-00-00", "+7 (900) 000-00-00", "Бесплатная консультация"],
+                lines: ["8 950 773 88 90", "Бесплатная консультация"],
               },
               {
                 icon: "Mail",
                 title: "Почта и мессенджеры",
-                lines: ["info@maximum-estate.ru", "Telegram: @maximum_vrn", "WhatsApp: +7 900 000-00-00"],
+                lines: ["maksimum-36@yandex.ru", "Telegram: @maximum_vrn", "WhatsApp: +7 900 000-00-00"],
               },
             ].map((card, i) => (
               <div key={i} className="luxury-card rounded-xl p-7 text-center">
