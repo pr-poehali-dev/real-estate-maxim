@@ -24,7 +24,7 @@ const services = [
   {
     icon: "Shield",
     title: "Безопасные расчёты",
-    desc: "Помогаем провести расчёты через аккредитив или эскроу-счёт. Ваши деньги защищены на каждом этапе.",
+    desc: "Помогаем провести безопасные расчёты. Ваши деньги защищены на каждом этапе.",
   },
   {
     icon: "MapPin",
@@ -40,7 +40,7 @@ const services = [
 
 const steps = [
   { num: "01", title: "Консультация", desc: "Встречаемся в офисе или онлайн, обсуждаем бюджет и пожелания" },
-  { num: "02", title: "Подбор", desc: "В течение 2–3 дней формируем подборку лучших вариантов" },
+  { num: "02", title: "Подбор", desc: "После заключения договора в течение 2–3 дней формируем подборку лучших вариантов" },
   { num: "03", title: "Просмотр", desc: "Организуем онлайн-трансляцию с объекта в удобное для вас время" },
   { num: "04", title: "Сделка", desc: "Сопровождаем весь процесс оформления — от брони до ключей" },
 ];
@@ -122,7 +122,7 @@ export default function Index() {
             </div>
 
             <h1 className="font-cormorant animate-fade-up-delay-1 mb-6 leading-none" style={{ fontSize: "clamp(2.8rem, 7vw, 5.5rem)", fontWeight: 300 }}>
-              Квартира в Москве —
+              Квартира в Москве
               <br />
               <em className="font-cormorant" style={{ fontStyle: "italic", color: "hsl(43,74%,62%)" }}>без поездок</em>
               <br />
@@ -130,7 +130,7 @@ export default function Index() {
             </h1>
 
             <p className="animate-fade-up-delay-2 text-lg mb-10 leading-relaxed max-w-xl" style={{ color: "rgba(240,237,232,0.65)" }}>
-              Мы сделаем всё за вас: подберём, покажем, оформим. Вам достаточно приехать к нам в Воронеже или выйти на онлайн-встречу.
+              Мы сделаем всё за вас: подберём, покажем, оформим. Вам достаточно приехать к нам в Воронеж или выйти на онлайн-встречу.
             </p>
 
             <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4">
@@ -144,8 +144,7 @@ export default function Index() {
 
             <div className="animate-fade-up-delay-4 mt-14 flex flex-wrap gap-8">
               {[
-                { val: "13 лет", label: "на рынке" },
-                { val: "600+", label: "сделок закрыто" },
+                { val: "13 лет", label: "на рынке недвижимости" },
                 { val: "100%", label: "без поездок в Москву" },
               ].map((s) => (
                 <div key={s.val}>
@@ -224,7 +223,7 @@ export default function Index() {
               </h2>
               <div className="gold-line w-16 mb-8" />
               <p className="text-base leading-relaxed mb-5" style={{ color: "rgba(240,237,232,0.65)" }}>
-                Агентство <strong style={{ color: "#f0ede8" }}>«Максимум»</strong> специализируется на покупке квартир в новостройках Москвы для жителей Воронежа и всего Черноземья. Мы работаем с 2016 года и знаем московский рынок изнутри.
+                Агентство <strong style={{ color: "#f0ede8" }}>«Максимум»</strong> специализируется на покупке квартир в новостройках Москвы для жителей Воронежа и всего Черноземья. Мы работаем на рынке недвижимости с 2013 года и знаем рынок изнутри.
               </p>
               <p className="text-base leading-relaxed mb-8" style={{ color: "rgba(240,237,232,0.65)" }}>
                 Наши клиенты получают максимум информации при минимуме усилий. Ни одной лишней поездки, ни одного непонятного документа. Мы берём все заботы на себя — от первого звонка до получения ключей.
@@ -234,8 +233,6 @@ export default function Index() {
                 {[
                   { icon: "Award", text: "Официальные партнёры 50+ застройщиков Москвы" },
                   { icon: "Clock", text: "Сопровождение от бронирования до ключей" },
-                  { icon: "Users", text: "Команда из 12 специалистов" },
-                  { icon: "TrendingUp", text: "Инвестиционные квартиры с доходностью 15–25%" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-4 rounded-lg" style={{ background: "hsl(220,18%,13%)", border: "1px solid hsl(220,15%,18%)" }}>
                     <Icon name={item.icon} size={16} style={{ color: "hsl(43,74%,55%)", marginTop: 2, flexShrink: 0 }} fallback="Check" />
